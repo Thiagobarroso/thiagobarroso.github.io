@@ -1,0 +1,47 @@
+@import "global.css";
+@import "header.css";
+@import "introducao.css";
+@import "experiencia.css";
+@import "formacao.css";
+@import "footer.css";
+
+:root {
+    color: #141414 (--font-principal);
+}
+.header {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-menu a {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--font-principal);
+}
+
+@media (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .header-menu a {
+        padding: 10px 20px;
+        background-color: #e5e5e5;
+        border-radius: 4px;
+    }
+}
