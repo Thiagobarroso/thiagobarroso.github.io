@@ -1,3 +1,30 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #222;
+      --texto-1: #eee;
+      --texto-2: #bbb;
+      --experiencia: #E0E0E0;
+      --detalhe: linear-gradient(#701CDA, #A839FF);
+      --detalhesvg: url(../assets/0701-primeiros-passos/img/detalhe-escura.svg);
+      --cursos: url(../assets/0701-primeiros-passos/img/cursos-escura.svg);
+      --idioma: url(../assets/0701-primeiros-passos/img/idioma-escura.svg);
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      --fundo: #fff;
+      --texto-1: #111;
+      --texto-2: #444;
+      --experiencia: #E0E0E0;
+      --detalhe: linear-gradient(#b6f829, #67dd0a);
+      --detalhesvg: url(../assets/0701-primeiros-passos/img/detalhe-clara.svg);
+      --cursos: url(../assets/0701-primeiros-passos/img/cursos-clara.svg);
+      --idioma: url(../assets/0701-primeiros-passos/img/idioma-clara.svg);
+    
+    }
+  }
+
 .formacao {
     background: #141414;
     color: #fff;
@@ -17,7 +44,7 @@
     display: block;
     width: 130px;
     height: 120px;
-    background: url(../assets/0701-primeiros-passos/img/detalhe.svg) no-repeat;
+    background: var(--detalhesvg) no-repeat;
     position: absolute;
     bottom: -50px;
     left: 20px;
@@ -78,7 +105,7 @@
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
+    background: var(--detalhe);
     position: absolute;
     top: 2px;
     left: -24px;
@@ -107,6 +134,9 @@
 .formacao-extra h3::before {
     display: block;
     content: "";
+
+    
+    
     width: 24px;
     height: 24px;
     position: absolute;
@@ -115,11 +145,11 @@
 }
 
 .cursos h3::before {
-    background: url(../assets/0701-primeiros-passos/img/cursos.svg);
+    background: var(--cursos);
 }
 
 .idiomas h3::before {
-    background: url(../assets/0701-primeiros-passos/img/idiomas.svg);
+    background: var(--idioma);
 }
 
 .formacao-extra li {

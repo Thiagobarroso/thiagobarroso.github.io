@@ -8,6 +8,8 @@
 :root {
     color: #141414 (--font-principal);
 }
+
+
 .header {
     max-width: 1200px;
     padding: 40px 20px;
@@ -42,6 +44,7 @@
     .header-menu a {
         padding: 5px 15px;
         background-color: #e5e5e5;
+        color:#141414;
         border-radius: 4px;
     }
 }
