@@ -58,3 +58,22 @@
         display: none;
     }
 }
+
+.download-button {
+    margin-top: 10px;
+    color: (--font-principal);
+    border: 1px color #525252;  
+    border-radius: 5px; 
+    padding: 10px 25px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .download-button a {
+    font-family: "fira sans", Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+    color: #141414;
+    padding: 10px 25px;
+ }
+
+
+ 
