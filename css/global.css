@@ -5,7 +5,7 @@
       --texto-2: #bbb;
       --experiencia: #525252;
       --detalhe: linear-gradient(#701CDA, #A839FF);
-      --detalhesvg: url(../assets/0701-primeiros-passos/img/detalhe-escura.svg);
+      --detalhesvg-escura: url(../assets/0701-primeiros-passos/img/detalhe-escura.svg);
       --cursos: url(../assets/0701-primeiros-passos/img/cursos-escura.svg);
       --idioma: url(../assets/0701-primeiros-passos/img/idiomas-escura.svg);
     }
@@ -18,7 +18,7 @@
       --texto-2: #444;
       --experiencia: #E0E0E0;
       --detalhe: linear-gradient(#b6f829, #67dd0a);
-      --detalhesvg: url(../assets/0701-primeiros-passos/img/detalhe-clara.svg);
+      --detalhesvg-clara: url(../assets/0701-primeiros-passos/img/detalhe-clara.svg);
       --cursos: url(../assets/0701-primeiros-passos/img/cursos-clara.svg);
       --idioma: url(../assets/0701-primeiros-passos/img/idiomas-clara.svg);
     

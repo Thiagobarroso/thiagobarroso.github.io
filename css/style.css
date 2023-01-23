@@ -1,5 +1,4 @@
 @import "global.css";
-@import "header.css";
 @import "introducao.css";
 @import "experiencia.css";
 @import "formacao.css";
@@ -48,3 +47,12 @@
         border-radius: 4px;
     }
 }
+
+
+#botao {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--font-principal)
+  }
+  

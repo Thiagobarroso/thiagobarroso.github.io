@@ -37,6 +37,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 100px;
     position: relative;
+  
 }
 
 .formacao-container::after {
@@ -51,7 +52,7 @@
 }
 
 .formacao .subtitulo {
-    color: black;
+    color: var(--texto-2);
     max-width: 6ch;
 
 }
@@ -109,8 +110,6 @@
     position: absolute;
     top: 2px;
     left: -24px;
-
-
 }
 
 .faculdade .instituicao {
