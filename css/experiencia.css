@@ -5,6 +5,7 @@
       --texto-2: #bbb;
       --experiencia: #525252;
       --detalhe: linear-gradient(#701CDA, #A839FF);
+      --link: #A839FF;
       --detalhesvg-escura: url(../assets/0701-primeiros-passos/img/detalhe-escura.svg);
       --cursos: url(../assets/0701-primeiros-passos/img/cursos-escura.svg);
       --idioma: url(../assets/0701-primeiros-passos/img/idiomas-escura.svg);
@@ -17,6 +18,7 @@
       --texto-1: #111;
       --texto-2: #525252;
       --experiencia: #E0E0E0;
+      --link: green;
       --detalhe: linear-gradient(#b6f829, #67dd0a);
       --detalhesvg: url(../assets/0701-primeiros-passos/img/detalhe-clara.svg);
       --cursos: url(../assets/0701-primeiros-passos/img/cursos-clara.svg);
@@ -34,6 +36,11 @@
     --cursos: url(../assets/0701-primeiros-passos/img/cursos-escura.svg);
     --idioma: url(../assets/0701-primeiros-passos/img/idiomas-escura.svg);   
   }
+
+
+.experiencia-link {
+    color: var(--link)
+}
 
 
 .experiencia {
