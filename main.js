@@ -18,3 +18,37 @@ function initScrollSuave() {
 }
 
 initScrollSuave();
+
+// DARK MODE
+
+const btnMode = document.getElementById('btnMode');
+const body = document.body;
+const icon = document.getElementById('icon');
+
+btnMode.addEventListener('click', function () {
+  body.classList.toggle('light-mode');
+
+  if (body.classList.toggle('ligth-mode')) {
+    btnMode.innerText = 'dark_mode';
+    icon.setAttribute(
+      'href',
+      'assets/0701-primeiros-passos/img/detalhe-clara.svg',
+    );
+  } else {
+    btnMode.innerText = 'light_mode';
+    icon.setAttribute(
+      'href',
+      'assets/0701-primeiros-passos/img/detalhe-escura.svg',
+    );
+  }
+});
+
+//DARK MODE ICON
+
+console.log(body.classList.value);
+
+/*
+icon.setAttribute(
+  'href',
+  'assets/0701-primeiros-passos/img/detalhe-clara.svg',
+)*/
