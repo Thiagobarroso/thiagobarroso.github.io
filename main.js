@@ -27,6 +27,7 @@ const icon = document.getElementById('icon');
 
 btnMode.addEventListener('click', function () {
   body.classList.toggle('light-mode');
+  body.style.transition = 'background-color 0.5s ease, color 0.5s ease';
 
   if (body.classList.toggle('ligth-mode')) {
     btnMode.innerText = 'dark_mode';
@@ -42,13 +43,3 @@ btnMode.addEventListener('click', function () {
     );
   }
 });
-
-//DARK MODE ICON
-
-console.log(body.classList.value);
-
-/*
-icon.setAttribute(
-  'href',
-  'assets/0701-primeiros-passos/img/detalhe-clara.svg',
-)*/
